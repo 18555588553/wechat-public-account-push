@@ -69,7 +69,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oyGSd52VMv4u6QpxF3WPAybNdVuw",
+      id: "",
     }, 
   ],
     
@@ -93,10 +93,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1999", "date": "11-01"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     {"type": "生日", "name": "小碟", "year": "1999", "date": "11-01"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -104,7 +101,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -118,14 +115,14 @@ export const config = {
     // 结婚纪念日
    // {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+    //{"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
   ],
 
   /** 插槽 */
-
+keyword: "love_day"
   /** 你可以在这里写超多的你想显示的内容了！
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 

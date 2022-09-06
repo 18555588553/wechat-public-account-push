@@ -51,7 +51,7 @@ export const config = {
       // 所在城市
       city: "杭州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://api.hzhstit.com"
     }, 
     {
       // 想要发送的人的名字
@@ -65,7 +65,7 @@ export const config = {
       // 所在城市
       city: "杭州",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://api.hzhstit.com"
     }, 
   ],
 
@@ -106,7 +106,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "小碟", "year": "1999", "date": "11-01"},
+    {"type": "生日", "name": "小碟", "year": "2004", "date": "11-01"},
   ],
 
   /**

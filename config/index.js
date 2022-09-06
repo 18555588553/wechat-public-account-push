@@ -53,7 +53,20 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
-    
+    {
+      // 想要发送的人的名字
+      name: "老婆",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oyGSd569FS86AbuV3FVKA_4OGfSY",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "XFYGlPqrLfAcKzq0XnnU-jdLMinlNTYgsF52Wnb2Pxs",
+      // 所在省份
+      province: "浙江",
+      // 所在城市
+      city: "杭州",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://wangxinleo.cn"
+    }, 
   ],
 
   /**
@@ -69,7 +82,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oyGSd52VMv4u6QpxF3WPAybNdVuw",
     }, 
   ],
     
